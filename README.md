@@ -22,11 +22,20 @@ If you don't want to use make, check the Makefile on how to run the script and j
 
 - the tool is shit. sorry, there is no way to put it softer. is just really bad. having said that, amazing people can get amazing results with it. I struggled.
 
+- If you have a custom keyboard layout, there might be some issues with key mappings. with a custom keyboard layout, like Dvorak, you fucked. 
+    - Change your layout during game to en_us, to have all the shortcuts function as expected.
+    - And when you are editing the profile, make sure you also have the layout in en_us.
+    - The profile will assign the _hardware key_ (not the actual symbol on the key) to the mapping. Which will make custom layouts flip.
+
+- Start by changing the view mode, to Grid (So you can see all 6 modes at once, without the picture of the HOTAS)
+
 - If you change 1 setting, in 1 of the modes, the other 3 will change too.
 
 - If you want to change a setting, is better to do it first in the profile editor. 
   
     - If you want to change a setting that already has a button, and is assigned in ED, change it in the profile.
+    - *NOTE:* If the setting alreay exists, change it by _right click_ on the field, instead of typing yourself.
+      When you type yourself, it will mess the linked modes and what not. FFFFFFFFfff*¿/%?$)k
 
     - if it doesn't exist yet, add a key combination there. then go to E:D
 
