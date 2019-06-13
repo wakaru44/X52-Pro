@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="X52ProElite v2.2.3" MajorVersion="3" MinorVersion="0">
-	<KeyboardLayout>es-ES</KeyboardLayout>
+	<KeyboardLayout>en-US</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
 	<MouseYMode Value="" />
@@ -266,7 +266,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="Keyboard" Key="Key_Slash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
@@ -281,9 +281,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="Keyboard" Key="Key_J">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
@@ -509,7 +507,7 @@
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="Keyboard" Key="Key_Slash" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
