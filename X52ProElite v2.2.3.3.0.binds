@@ -266,7 +266,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_Slash" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
@@ -281,7 +281,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Divide" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
@@ -1334,19 +1334,19 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Backspace" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
-		<Primary Device="Keyboard" Key="Key_K" />
+		<Primary Device="Keyboard" Key="Key_RightBracket" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
-		<Primary Device="Keyboard" Key="Key_I" />
+		<Primary Device="Keyboard" Key="Key_LeftBracket" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
@@ -1373,7 +1373,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Insert" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
@@ -1388,7 +1388,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSTarget>
 	<ExplorationFSSShowHelp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
