@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="X52ProElite v2.2.3" MajorVersion="3" MinorVersion="0">
-	<KeyboardLayout>en-US</KeyboardLayout>
+	<KeyboardLayout>es-ES</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
 	<MouseYMode Value="" />
@@ -1338,7 +1338,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="Keyboard" Key="Key_Backspace" />
+		<Primary Device="Keyboard" Key="Key_Period" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
@@ -1350,7 +1350,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX52Pro" Key="Joy_RXAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
@@ -1363,8 +1363,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
-		<Binding Device="SaitekX52Pro" Key="Joy_RXAxis" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
 	<FSSTuningSensitivity Value="1.00000000" />
