@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="X52ProElite v2.2.3" MajorVersion="3" MinorVersion="0">
-	<KeyboardLayout>es-ES</KeyboardLayout>
+	<KeyboardLayout>en-GB</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
 	<MouseYMode Value="" />
@@ -137,7 +137,7 @@
 	</ThrottleAxis>
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_Hash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
@@ -386,7 +386,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_SemiColon" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
@@ -508,10 +508,10 @@
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_CapsLock" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
-		<Primary Device="Keyboard" Key="Key_SemiColon" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
@@ -520,9 +520,7 @@
 		<ToggleOn Value="0" />
 	</ShowPGScoreSummaryInput>
 	<HeadLookToggle>
-		<Primary Device="Keyboard" Key="Key_6">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
+		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
@@ -594,7 +592,7 @@
 	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
-	<MouseHeadlookSensitivity Value="0.50000000" />
+	<MouseHeadlookSensitivity Value="0.54599559" />
 	<HeadlookDefault Value="0" />
 	<HeadlookIncrement Value="0.00000000" />
 	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
@@ -602,7 +600,7 @@
 	<HeadlookSensitivity Value="1.00000000" />
 	<HeadlookSmoothing Value="1" />
 	<HeadLookReset>
-		<Primary Device="Keyboard" Key="Key_F12" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookReset>
 	<HeadLookPitchUp>
@@ -692,7 +690,7 @@
 		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_Hash" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateUp>
 	<CamTranslateDown>
@@ -791,7 +789,7 @@
 		<ToggleOn Value="0" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
-		<Primary Device="Keyboard" Key="Key_Insert" />
+		<Primary Device="Keyboard" Key="Key_SemiColon" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
@@ -850,7 +848,7 @@
 	</DriveSpeedAxis>
 	<BuggyThrottleRange Value="Bindings_BuggyThrottleForewardOnly" />
 	<BuggyToggleReverseThrottleInput>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_Hash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</BuggyToggleReverseThrottleInput>
@@ -935,7 +933,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen_Buggy>
 	<SystemMapOpen_Buggy>
-		<Primary Device="Keyboard" Key="Key_SemiColon" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen_Buggy>
 	<OpenCodexGoToDiscovery_Buggy>
@@ -943,18 +941,20 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery_Buggy>
 	<PlayerHUDModeToggle_Buggy>
-		<Primary Device="SaitekX52Pro" Key="Joy_32" />
+		<Primary Device="Keyboard" Key="Key_Slash">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle_Buggy>
 	<HeadLookToggle_Buggy>
-		<Primary Device="Keyboard" Key="Key_6">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		<Primary Device="Keyboard" Key="Key_LeftControl">
+			<Modifier Device="Mouse" Key="Mouse_4" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle_Buggy>
 	<MultiCrewToggleMode>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewToggleMode>
 	<MultiCrewPrimaryFire>
@@ -1116,11 +1116,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraSix>
 	<VanityCameraSeven>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraSeven>
 	<VanityCameraEight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraEight>
 	<VanityCameraNine>
@@ -1146,7 +1146,7 @@
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
-		<Primary Device="Keyboard" Key="Key_BackSlash" />
+		<Primary Device="Keyboard" Key="Key_Hash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInputFreeCam>
@@ -1274,6 +1274,32 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FStopInc>
+	<StoreEnableRotation>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreEnableRotation>
+	<StorePitchCamera>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</StorePitchCamera>
+	<StoreYawCamera>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</StoreYawCamera>
+	<StoreCamZoomIn>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreCamZoomIn>
+	<StoreCamZoomOut>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreCamZoomOut>
+	<StoreToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</StoreToggle>
 	<CommanderCreator_Undo>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1292,15 +1318,21 @@
 		<Deadzone Value="0.00000000" />
 	</CommanderCreator_Rotation>
 	<GalnetAudio_Play_Pause>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_Play_Pause>
 	<GalnetAudio_SkipForward>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_G">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_SkipForward>
 	<GalnetAudio_SkipBackward>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_D">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_SkipBackward>
 	<GalnetAudio_ClearQueue>
@@ -1321,7 +1353,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
