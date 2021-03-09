@@ -312,7 +312,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
@@ -364,7 +364,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="Keyboard" Key="Key_Period" />
+		<Primary Device="Keyboard" Key="Key_Y" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
@@ -1424,7 +1424,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Tab" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
@@ -1432,13 +1432,13 @@
 		<Primary Device="Keyboard" Key="Key_Backspace" />
 		<Secondary Device="Keyboard" Key="Key_Period" />
 	</ExplorationSAAExitThirdPerson>
-	<SAAThirdPersonMouseXMode Value="" />
+	<SAAThirdPersonMouseXMode Value="Bindings_MouseYaw" />
 	<SAAThirdPersonMouseXDecay Value="0" />
-	<SAAThirdPersonMouseYMode Value="" />
+	<SAAThirdPersonMouseYMode Value="Bindings_MousePitchInverted" />
 	<SAAThirdPersonMouseYDecay Value="0" />
 	<SAAThirdPersonMouseSensitivity Value="30.00000000" />
 	<SAAThirdPersonYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonYawAxisRaw>
@@ -1451,8 +1451,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonYawRightButton>
 	<SAAThirdPersonPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonPitchAxisRaw>
 	<SAAThirdPersonPitchUpButton>
@@ -1464,8 +1464,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonPitchDownButton>
 	<SAAThirdPersonFovAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonFovAxisRaw>
 	<SAAThirdPersonFovOutButton>
