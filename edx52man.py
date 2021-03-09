@@ -33,13 +33,16 @@ locations = {
 
 # trying to do an installer for the files, with auto retrieve for updates
 def locations_exist():
-    """verify that all locations are dirs and have the files"""
+    """verify that all locations (filename locations) exist"""
     # TODO: perform this checks on all dirs after initial setup
     # this are all the locations for the files. the source, where all lives,
     # and pr and elite where the saitek tool's and elite's folders are.
     for loc in locations:
         for action in ["collect", "deploy"]:
-            a = os.path.isdir(locations[loc][action])
+            folder = os.path.dirname(locations[loc][action])
+            a = os.path.isdir(folder)
+            if not a:
+                print(f"Failed to find {folder}")
     return a
 
 
@@ -68,11 +71,11 @@ def copy(a, b):
 def collect_files():
     """ Get all the files, iterating over a dict"""
     locate = locations  # us this global
-    source = "deploy"  # The source is the place where we deploy
-    target = "collect"  # Our destination, is the place where we colect
+    origin = "deploy"  # The source is the place where we deploy
+    destination = "collect"  # Our destination, is the place where we colect
     for loc in locate:
-        source = locate[loc][source]
-        target = locate[loc][target]
+        source = locate[loc][origin]
+        target = locate[loc][destination]
         assert copy(source, target)
     invoke.run("git diff")
 
