@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="X52ProElite v2.2.3" MajorVersion="3" MinorVersion="0">
-	<KeyboardLayout>en-GB</KeyboardLayout>
+	<KeyboardLayout>en-US</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
 	<MouseYMode Value="" />
@@ -137,7 +137,7 @@
 	</ThrottleAxis>
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="Keyboard" Key="Key_Hash" />
+		<Primary Device="Keyboard" Key="Key_BackSlash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
@@ -690,7 +690,7 @@
 		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
-		<Primary Device="Keyboard" Key="Key_Hash" />
+		<Primary Device="Keyboard" Key="Key_BackSlash" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateUp>
 	<CamTranslateDown>
@@ -848,7 +848,7 @@
 	</DriveSpeedAxis>
 	<BuggyThrottleRange Value="Bindings_BuggyThrottleForewardOnly" />
 	<BuggyToggleReverseThrottleInput>
-		<Primary Device="Keyboard" Key="Key_Hash" />
+		<Primary Device="Keyboard" Key="Key_BackSlash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</BuggyToggleReverseThrottleInput>
@@ -1088,31 +1088,33 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_R">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleFreeCam>
 	<VanityCameraOne>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraOne>
 	<VanityCameraTwo>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraTwo>
 	<VanityCameraThree>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraThree>
 	<VanityCameraFour>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraFour>
 	<VanityCameraFive>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraFive>
 	<VanityCameraSix>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraSix>
 	<VanityCameraSeven>
@@ -1146,7 +1148,7 @@
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
-		<Primary Device="Keyboard" Key="Key_Hash" />
+		<Primary Device="Keyboard" Key="Key_BackSlash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInputFreeCam>
@@ -1198,7 +1200,7 @@
 	<YawCameraMouse Value="" />
 	<PitchCamera>
 		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
 	<FreeCamMouseSensitivity Value="5.00000000" />
@@ -1213,7 +1215,7 @@
 	</PitchCameraDown>
 	<YawCamera>
 		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawCamera>
 	<FreeCamMouseXDecay Value="1" />
@@ -1255,7 +1257,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuitCamera>
 	<ToggleAdvanceMode>
-		<Primary Device="Keyboard" Key="Key_5" />
+		<Primary Device="Keyboard" Key="Key_Tab" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleAdvanceMode>
 	<FreeCamZoomIn>
