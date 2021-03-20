@@ -3,10 +3,10 @@
 <GUIColour>
 <Default>
 <LocalisationName>Standard</LocalisationName>
-<!-- Night vision green-->
-<MatrixRed> 0, 0.38, 0 </MatrixRed>
-<MatrixGreen> 0, 0, 0 </MatrixGreen>
-<MatrixBlue> 1, 0.64, 1 </MatrixBlue>
+<!-- ivory / sky blue-->
+<MatrixRed> 1, 1, 1 </MatrixRed>
+<MatrixGreen> 0, 1, 0 </MatrixGreen>
+<MatrixBlue> 0, 0, 1 </MatrixBlue>
 </Default>
 </GUIColour>
 </GraphicsConfig>
@@ -20,6 +20,24 @@
 <MatrixRed> 1, 0, 0 </MatrixRed>
 <MatrixGreen> 0, 1, 0 </MatrixGreen>
 <MatrixBlue> 0, 0, 1 </MatrixBlue>
+
+    Ivory / Sky Blue
+
+<MatrixRed> 1, 1, 1 </MatrixRed>
+<MatrixGreen> 0, 1, 0 </MatrixGreen>
+<MatrixBlue> 0, 0, 1 </MatrixBlue>
+
+
+ Lemon CHiffon / dark orange
+<MatrixRed> 0.39, 0.47, 0.21 </MatrixRed>
+<MatrixGreen> 0.08, 0.14, 1 </MatrixGreen>
+<MatrixBlue> 1, -0.03, -1 </MatrixBlue>
+
+ Night vision green 
+<MatrixRed> 0, 0.38, 0 </MatrixRed>
+<MatrixGreen> 0, 0, 0 </MatrixGreen>
+<MatrixBlue> 1, 0.64, 1 </MatrixBlue>
+
 </Default>
 </GUIColour>
 </GraphicsConfig>
