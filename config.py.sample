@@ -22,23 +22,35 @@ username=os.getlogin() # by default will be the one in c:/Users/{here}
 # Location of the repository with version control files
 source_location = os.path.abspath(os.path.curdir)
 
-# Profile location of the x52 config tool (Usually in Public user, or your user's Documents)
-pr_location=r"C:\Users\Public\Documents\SmartTechnology Profiles"
 
-# Elite dangerous bindings location (usually within your user's AppData\Local\...)
-elite_location=r"C:\Users\{username}\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings".format(username=username)
+# Profile location of the x52 config tool (Usually in Public user, or your
+# user's Documents)
+# pr_location=r"C:\Users\Public\Documents\SmartTechnology Profiles" # This is
+# the location for the "SMart technology" version. Legacy
+pr_location = r"C:\Users\Public\Documents\Logitech\X52 Professional"
 
-################################################################################
+# Elite dangerous User config location (usually within your AppData\Local\...)
+# NOTICE: This should be the parent folder (Options) of Bindings and Graphics.
+elite_base = r"""C:\Users\{username}\AppData\Local\Frontier Developments\Elite Dangerous\Options""".format(username=username)
+
+# TODO: Delete this in favour of composing on the script
+bindings_location = os.path.join(elite_base, r"Bindings")
+
+###############################################################################
 # Filenames - This you can customize
-################################################################################
+###############################################################################
 
 # Binding filename - usally a fixed string and a version
-# filename_binds="X52ProElite v2.2.3.1.8.binds" # old. no longer used in ED Horizons
+# filename_binds="X52ProElite v2.2.3.1.8.binds" # old. not used in ED Horizons
 filename_binds = "X52ProElite v2.2.3.3.0.binds"
 
 # Profiles filename - the standard one
-filename_profile="X52ProEliteV223.pr0"
+filename_profile = "X52ProEliteV223.pr0"
 
 # Custom Profile - a different one if you just want to be different, whatever.
-filename_profile_custom="X52ProEliteV223{0}.pr0".format("Your_CMDR_name")
+filename_profile_custom = "X52ProEliteV223{0}.pr0".format(username)
+# TODO: the line above is legacy from a feature that never got implemented.
+
+# Color palette - Default Filename
+filename_colors_default = "GraphicsConfigurationOverride.xml"
 
