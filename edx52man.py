@@ -87,9 +87,16 @@ def deploy_files():
     target = "deploy"  # Our destination, is where it's used
     diff = invoke.run("git diff")
     for loc in locate:
-        source = locate[loc][source]
-        target = locate[loc][target]
-        assert copy(source, target)
+        print(f"Moving {loc}")
+        try:
+            # Copy the files.
+            src_file = locate[loc][source]
+            tgt_file = locate[loc][target]
+            assert copy(src_file, tgt_file)
+        except KeyError as e:
+            print(f"Failing to copy {loc}")
+            print(locate)
+            raise e
 
 
 def check_files():
